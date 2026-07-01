@@ -1,0 +1,93 @@
+body {
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+h1 {
+    font-family: "Ubuntu Sans", sans-serif;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 0;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: "Ubuntu Sans", sans-serif;
+    size: 16px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+p {
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+.content{
+    max-width: 2400px;
+  
+    margin: 0 auto;
+}
+.topbar{
+    height: 120px;
+    margin-top: 0px;
+    background: white;
+}
+
+.container{
+    display: flex
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidenav{
+    width: 300px;
+    z-index: 1;
+    overflow-x: hidden;
+
+    padding: 10px 0px 20px 0px;
+}
+
+
+.sidenav a {
+    padding: 24px 0px 4px 0px;
+    font-size: 20px;
+    display: block;
+    font-family: "Ubuntu Sans", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+
+}
+
+
+.sidenav a:hover{
+    color:#818181;
+}
+
+.contact{
+    padding: 4px 8px 10px 16px;
+    width: 300px;
+    overflow-x: hidden;
+
+}
+
+.contact a {
+    font-size: 16px;
+    font-family: "Ubuntu Sans", sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 4px 8px 4px 16px;
+    display: block;
+}
+.aboutme {
+    background: lightblue;
+    margin-left: 10px;
+    padding: 0px 10px;
+
+}
