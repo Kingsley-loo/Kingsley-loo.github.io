@@ -1,15 +1,21 @@
 body {
     font-family: "Ubuntu Sans", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    font-family: "Ubuntu Sans", sans-serif;
+    margin-top: 0px;
+    font-size: 50px;
+    font-family: "Ubuntu Sans Mono", monospace;
     margin-bottom: 5px;
+    letter-spacing: 2px;
+    font-weight: 500;
 }
 
 h2 {
     margin-top: 0;
-    font-family: "Ubuntu Sans", sans-serif;
+    font-family: "Ubuntu Sans Mono", monospace;
     font-size: 20px;
 }
 
@@ -32,9 +38,58 @@ p {
 .topbar{
     height: 120px;
     margin-top: 0px;
-    background: white;
+    display: flex;
+    background-color: #292929;
+}
+.topname {
+    margin-top: 0px;
+    display: block;
+    height: 120px;
+    width:600px;
+    background-color: #292929;
+    color: white;
+
 }
 
+.topnav {
+    height: 70px;
+    gap: 0px;
+    margin-left: 200px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    background-color: #292929;
+}
+
+
+.topnav a{
+    padding: 23px 16px;
+    float: left;
+    width: 350px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #292929;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+
+.topnav a:hover {
+
+  background-color: #5e5e5e;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: white;
+    color: #292929;
+}
 .container{
     display: flex
 }
@@ -57,7 +112,7 @@ p {
     padding: 24px 0px 4px 0px;
     font-size: 20px;
     display: block;
-    font-family: "Ubuntu Sans", sans-serif;
+    font-family: "Ubuntu Sans Mono", monospace;
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -86,7 +141,6 @@ p {
     display: block;
 }
 .aboutme {
-    background: lightblue;
     margin-left: 10px;
     padding: 0px 10px;
 
