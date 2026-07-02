@@ -29,13 +29,15 @@ h3 {
 
 p {
     font-family: "Ubuntu Sans", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 0px;
+    line-height: 1.6;
 }
 
 .content{
     max-width: 1300px;
     margin: 0 auto;
+    padding: 20px;
 }
 .top {
     background-color: #292929;
@@ -153,7 +155,4 @@ p {
     color: black;
     padding: 4px 8px 4px 16px;
     display: block;
-}
-.aboutme {
-
 }
